@@ -1,0 +1,44 @@
+{
+  "name": "drow",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "drow"
+  ],
+  "preferGlobal": true,
+  "config": {
+    "publishtest": false
+  },
+  "homepage": "http://www.heysdk.com/",
+  "author": {
+    "name": "zhs007",
+    "email": "sssxueren@gmail.com",
+    "url": "http://www.heysdk.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhs007/drow"
+  },
+  "bugs": {
+    "url": "https://github.com/zhs007/drow/issues",
+    "email": "sssxueren@gmail.com"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "main": "./bin/drowcli.js",
+  "bin": {
+    "pathanalyze": "./bin/drowcli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/drowcli.js"
+  },
+  "dependencies": {
+    "shelljs": "*",
+    "yargs": "*",
+    "glob": "*",
+    "handlebars": "*"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
